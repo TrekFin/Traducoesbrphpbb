@@ -1,9 +1,9 @@
 <?php
 /**
 *
-* Extension - Topic Prefixes
+* Tradução Extension - Topic Prefixes
 *
-* @copyright (c) 2016 PART3 <http://part3.org>
+* @copyright (c) 2016 eunaumtenhoid <http://https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=1002905>
 * @license MIT License
 *
 */
@@ -39,8 +39,8 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'TOPIC_DESC'	=> 'Descrição do tópico',
-	'TOPIC_PREFIX'	=> 'Audio',
-	'PREFIX_REQUIRED' => 'Audio é necessário',
+	'TOPIC_PREFIX'	=> 'Prefixo do Tópico',
+	'PREFIX_REQUIRED' => 'Prefixo do Tópico é necessário',
 	'PREFIX_INVALID' => 'HAX?',
 
 	'ACP_PREFIXES' => 'Prefixos',

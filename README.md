@@ -1,2 +1,2 @@
 # traducoesphpbb
-tarduçoes das ext do phpbb
+minhas traduçoes das ext do phpbb

@@ -35,18 +35,18 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'APPLICATION_SUBJECT'			=> 'Application from %s',
-	'APPLICATION_MESSAGE'			=> 'A user, <strong>%1$s</strong>, has applied with the following information using the application form.<br /><br />[b]Real name[/b]: %2$s<br />[b]Applying for[/b]: %3$s<br />[b]Reason for applying:[/b] %4$s',
-	'APPLICATION_SEND'				=> 'Your application has been sent to the administrators of this board. They’ll decide upon your application in the coming days.',
-	'APPLICATION_PAGETITLE'			=> 'Application form',
+	'APPLICATION_SUBJECT'			=> 'Formulario %s',
+	'APPLICATION_MESSAGE'			=> 'O usuario, <strong>%1$s</strong>, fez uma aplicacao com as seguintes informacoes utilizando o formulario.<br /><br />[b]Nome verdadeiro[/b]: %2$s<br />[b]Candidatando para[/b]: %3$s<br />[b]Razao pela qual esta se candidatando:[/b] %4$s',
+	'APPLICATION_SEND'				=> 'O seu pedido foi enviado para os administradores deste forum. eles decidirao sobre sua aplicacao nos proximos dias.',
+	'APPLICATION_PAGETITLE'			=> 'Formulario de aplicacao',
 
-	'APPLICATION_WELCOME_MESSAGE'	=> 'Welcome to the application form. We have team positions open that you may, if you feel you’re the right person, wish to apply for. Please fill out the form below to be considered for the chosen position. Good luck!<br><br><strong><em>Items marked with an asterisk must be filled out!</em></strong>',
-	'APPLICATION_REALNAME'			=> 'Real name',
-	'APPLICATION_EMAIL'				=> 'E-mail address',
-	'APPLICATION_POSITION'			=> 'Position you would like to have',
-	'APPLICATION_WHY'				=> 'Why should we choose you for this position?',
-	'APP_NOT_COMPLETELY_FILLED'		=> 'You need to complete all fields in the application.',
-	'ADD_ATTACHMENT_EXPLAIN'		=> 'Attach a file to assist us in making our determination on your application.',
-	'ADD_ATTACHMENT_REQ'			=> '<strong>You must attach a file in order to be considered for the position</strong>.',
-	'APPLICATION_REQUIRES_ATTACHMENT'	=> 'Please attach a file for the position you are applying for.',
+	'APPLICATION_WELCOME_MESSAGE'	=> 'Bem-vindo ao formulario de aplicacao. Nos temos vagas abertas que voce possa, se for a pessoas certa, aplicar para elas. Por favor, preencha o formulario abaixo para ser considerado para a posicao escolhida. Boa sorte!<br><br><strong><em>Items marcados com asteriscos precisam ser preenchidos!</em></strong>',
+	'APPLICATION_REALNAME'			=> 'Nome verdadeiro',
+	'APPLICATION_EMAIL'				=> 'Endereco de E-mail',
+	'APPLICATION_POSITION'			=> 'Posicao desejada',
+	'APPLICATION_WHY'				=> 'Porque deveriamos escolhe-lo (a) para essa posicao?',
+	'APP_NOT_COMPLETELY_FILLED'		=> 'Voce precisa preencher todos os campos no formulario.',
+	'ADD_ATTACHMENT_EXPLAIN'		=> 'Anexe um arquivo para que nos ajude na decisao do seu formulario.',
+	'ADD_ATTACHMENT_REQ'			=> '<strong>E necessario anexar um arquivo para que voce seja considerado (a) para a posicao desejada</strong>.',
+	'APPLICATION_REQUIRES_ATTACHMENT'	=> 'Por favor, anexe um arquivo para a posicao desejada.',
 ));

@@ -22,10 +22,10 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'BIRTH_DATE'	=> 'Date of birth',
-	'BDAY_NO_DATE'	=> 'Please select a date of birth. You can not register if you do not add day of birth.',
-	'BDAY_TO_YOUNG'	=> 'You are not old enough to register to this board. <br /> This board has minimum age of %1$d years.',
-	'BC_SHOW_BDAY'	=> 'Show age',
-	'BDAY_NA'	=> 'n/a',
+	'BIRTH_DATE'	=> 'Data de nascimento',
+	'BDAY_NO_DATE'	=> 'Por favor selecione a data de nascimento. Nao sera possivel registrar-se neste forum se voce nao inserir sua data de nascimento.',
+	'BDAY_TO_YOUNG'	=> 'Voce nao tem a idade minima para registrar-se neste forum. <br /> Este forum exige a idade minima de %1$d anos.',
+	'BC_SHOW_BDAY'	=> 'Mostrar idade',
+	'BDAY_NA'	=> 'nao aplicavel',
 
 ));

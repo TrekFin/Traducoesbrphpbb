@@ -35,6 +35,6 @@ $lang = array_merge($lang, array(
 	'GENDER_X'			=> 'Não especificado',
 	'GENDER_M'			=> 'Masculino',
 	'GENDER_F'			=> 'Feminino',
-	'TOO_LARGE_USER_GENDER'	=> 'Gender value is too large.',
-	'TOO_SMALL_USER_GENDER'	=> 'Gender value is too small.',
+	'TOO_LARGE_USER_GENDER'	=> 'valor de gênero é muito grande.',
+	'TOO_SMALL_USER_GENDER'	=> 'valor de gênero é muito pequeno.',
 ));

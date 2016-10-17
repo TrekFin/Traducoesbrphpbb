@@ -41,5 +41,5 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'MAIN_EXT_NOT_INSTALLED'	=> 'The «Thanks for posts» extension is unavailable.',
+	'MAIN_EXT_NOT_INSTALLED'	=> 'A extensão «Thanks for posts» não está disponível.',
 ));

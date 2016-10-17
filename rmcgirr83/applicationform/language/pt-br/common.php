@@ -35,6 +35,6 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'APPLICATION_FORM'				=> 'Application Form',
-	'APPLICATION_FORM_EXPLAIN'		=> 'Here you can apply to become a team member',
+	'APPLICATION_FORM'				=> 'Formulario de candidatura',
+	'APPLICATION_FORM_EXPLAIN'		=> 'Aqui você pode pedir para se tornar um membro da equipe',
 ));

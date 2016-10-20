@@ -35,17 +35,17 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	//Module and page titles
-	'ACP_APPFORM_TITLE'					=> 'Formulario de Aplicacao',
+	'ACP_APPFORM_TITLE'					=> 'Formulario de candidatura',
 	'ACP_APP_FORM'						=> 'Configuracoes',
-	'ACP_APPLICATIONFORM_SETTINGS'		=> 'Configuracoes do Formulario de Aplicacao',
+	'ACP_APPLICATIONFORM_SETTINGS'		=> 'Configuracoes do Formulario de candidatura',
 	'APPLICATIONFORM_FORUM'				=> 'Forum',
 	'APPLICATIONFORM_FORUM_EXPLAIN'		=> 'Selecione o forum, para onde o formulario sera postado.',
 	'APPLICATIONFORM_POSITIONS'			=> 'Formulario de Posicoes',
 	'APPLICATIONFORM_POSITIONS_EXPLAIN'	=> 'Digite as posicoes para que os usuarios solicitem aplicacoes em linhas separadas.',
-	'APPFORM_SETTINGS_SUCCESS'			=> 'Configuracoes do formulario de aplicacao foram salvas.',
+	'APPFORM_SETTINGS_SUCCESS'			=> 'Configuracoes do formulario de candidatura foram salvas.',
 	'APPFORM_MUST_HAVE_POSITIONS'		=> 'Voce necessita ter ao menos uma posicao.',
 	'APPLICATIONFORM_NRU'				=> 'Permitir grupo recem registrado',
-	'APPLICATIONFORM_NRU_EXPLAIN'		=> 'Se definido sim, aqueles no grupo recem registrado terao acesso ao formulario de aplicacao.',
+	'APPLICATIONFORM_NRU_EXPLAIN'		=> 'Se definido sim, aqueles no grupo recem registrado terao acesso ao formulario de candidatura.',
 	'APPLICATIONFORM_ALLOW_ATTACHMENT'	=> 'Permitir anexar arquivos',
 	'APPLICATIONFORM_ALLOW_ATTACHMENT_EXPLAIN' => 'Se definido sim, arquivos tipo doc, pdf e textos serao autorizados a serem carregados.',
 	'APPLICATIONFORM_ATTACHMENT_REQ'	=> 'Necessario o anexo',

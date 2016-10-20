@@ -36,11 +36,11 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'APPLICATION_SUBJECT'			=> 'Formulario %s',
-	'APPLICATION_MESSAGE'			=> 'O usuario, <strong>%1$s</strong>, fez uma aplicacao com as seguintes informacoes utilizando o formulario.<br /><br />[b]Nome verdadeiro[/b]: %2$s<br />[b]Candidatando para[/b]: %3$s<br />[b]Razao pela qual esta se candidatando:[/b] %4$s',
+	'APPLICATION_MESSAGE'			=> 'O usuario, <strong>%1$s</strong>, fez uma candidatura com as seguintes informacoes utilizando o formulario.<br /><br />[b]Nome verdadeiro[/b]: %2$s<br />[b]Candidatando para[/b]: %3$s<br />[b]Razao pela qual esta se candidatando:[/b] %4$s',
 	'APPLICATION_SEND'				=> 'O seu pedido foi enviado para os administradores deste forum. eles decidirao sobre sua aplicacao nos proximos dias.',
-	'APPLICATION_PAGETITLE'			=> 'Formulario de aplicacao',
-
-	'APPLICATION_WELCOME_MESSAGE'	=> 'Bem-vindo ao formulario de aplicacao. Nos temos vagas abertas que voce possa, se for a pessoas certa, aplicar para elas. Por favor, preencha o formulario abaixo para ser considerado para a posicao escolhida. Boa sorte!<br><br><strong><em>Items marcados com asteriscos precisam ser preenchidos!</em></strong>',
+	'APPLICATION_PAGETITLE'			=> 'Formulario de candidatura',
+	
+	'APPLICATION_WELCOME_MESSAGE'	=> 'Bem-vindo ao formulário de candidatura. Temos posições da equipe aberta que você pode, se você sentir que você é a pessoa certa, deseja solicitar. Por favor, preencha o formulário abaixo para ser considerado para a posição escolhida. Boa sorte!<br><br><strong><em>Items marcados com asteriscos precisam ser preenchidos!</em></strong><br><br> No campo acrescente um link de um trabalho seu, caso não tenha postado nada no thetoonz e sua experiência na area',
 	'APPLICATION_REALNAME'			=> 'Nome verdadeiro',
 	'APPLICATION_EMAIL'				=> 'Endereco de E-mail',
 	'APPLICATION_POSITION'			=> 'Posicao desejada',

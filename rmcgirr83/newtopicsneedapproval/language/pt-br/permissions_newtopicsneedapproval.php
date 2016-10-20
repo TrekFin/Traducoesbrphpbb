@@ -38,5 +38,5 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACL_F_TOPIC_APPROVE'		=> 'New topics need approval',
+	'ACL_F_TOPIC_APPROVE'		=> 'Novos tópicos precisam de aprovação',
 ));

@@ -39,8 +39,8 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'TOPIC_DESC'	=> 'Descrição do tópico',
-	'TOPIC_PREFIX'	=> 'Audio',
-	'PREFIX_REQUIRED' => 'Audio é necessário',
+	'TOPIC_PREFIX'	=> 'Prefixo do tópico',
+	'PREFIX_REQUIRED' => 'Prefixo é necessário',
 	'PREFIX_INVALID' => 'HAX?',
 
 	'ACP_PREFIXES' => 'Prefixos',

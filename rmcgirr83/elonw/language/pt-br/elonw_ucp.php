@@ -3,7 +3,7 @@
 *
 * External Links Open in New Window [English]
 *
-* @copyright (c) 2014 Rich McGirr
+* @copyright (c) 2015 Rich McGirr
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 */

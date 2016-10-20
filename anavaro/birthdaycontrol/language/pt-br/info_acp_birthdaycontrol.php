@@ -22,12 +22,12 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'BIRTHDAY_CONTROL'	=> 'Requisitos do controle de aniversario',
-	'BIRTHDAY_REQUIRE'	=> 'Exigir aniversario',
+	'BIRTHDAY_CONTROL'	=> 'Requisitos do controle de aniversário',
+	'BIRTHDAY_REQUIRE'	=> 'Exigir aniversário',
 	'BIRTHDAY_REQUIRE_EXPLAIN'	=> 'Exigir que o usuario digite sua idade para se registrar aqui.',
-	'BIRTHDAY_MIN_AGE'	=> 'Idade minima',
-	'BIRTHDAY_MIN_AGE_EXPLAIN'	=> 'Exigir idade minima para que se registrem neste forum.',
-	'BIRTHDAY_SHOW_POST'	=> 'Mostrar idade nas mensages',
-	'BIRTHDAY_SHOW_POST_EXPLAIN'	=> 'Mostrar a idade do usuario em perfil pequeno.',
+	'BIRTHDAY_MIN_AGE'	=> 'Idade mínima',
+	'BIRTHDAY_MIN_AGE_EXPLAIN'	=> 'Exigir idade mínima para que se registrem neste forum.',
+	'BIRTHDAY_SHOW_POST'	=> 'Mostrar idade nas mensagens',
+	'BIRTHDAY_SHOW_POST_EXPLAIN'	=> 'Mostrar a idade do usuario no mini perfil em postview.',
 
 ));

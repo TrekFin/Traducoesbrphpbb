@@ -34,8 +34,8 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, array(
-	'SEARCH_USER_TOPICS'	=> 'Search user’s topics',
-	'TOPICS_PER_DAY'		=> '%.2f topics per day',
-	'TOPICS_PERCENT'		=> '%.2f%% of all topics',
-	'SUT_TOTAL_TOPICS'		=> 'Total topics',
+	'SEARCH_USER_TOPICS'	=> 'Pesquisar tópicos do usuário',
+	'TOPICS_PER_DAY'		=> '%.2f tópicos por dia',
+	'TOPICS_PERCENT'		=> '%.2f%% de todos os tópicos',
+	'SUT_TOTAL_TOPICS'		=> 'Total de tópicos',
 ));

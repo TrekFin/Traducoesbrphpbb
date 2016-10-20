@@ -4,7 +4,7 @@
  *
  * @package phpBB Extension - mChat
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
- * @copyright (c) 2016 kasimi
+ * @copyright (c) 2016 kasimi - https://kasimi.net
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  *
  */
@@ -38,6 +38,7 @@ $lang = array_merge($lang, array(
 	'MCHAT_ADD'						=> 'Enviar',
 	'MCHAT_ARCHIVE'					=> 'Arquivo',
 	'MCHAT_ARCHIVE_PAGE'			=> 'mChat Arquivo',
+	'MCHAT_CUSTOM_PAGE'				=> 'mChat',
 	'MCHAT_BBCODES'					=> 'BBCodes',
 	'MCHAT_CUSTOM_BBCODES'			=> 'BBCodes personalizados',
 	'MCHAT_DELCONFIRM'				=> 'Você tem certeza que deseja deletar essa mensagem?',

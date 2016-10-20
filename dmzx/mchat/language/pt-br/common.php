@@ -4,7 +4,7 @@
  *
  * @package phpBB Extension - mChat
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
- * @copyright (c) 2016 kasimi
+ * @copyright (c) 2016 kasimi - https://kasimi.net
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  *
  */
@@ -61,8 +61,12 @@ $lang = array_merge($lang, array(
 
 	// Post notification messages (%1$s is replaced with a link to the new/edited post, %2$s is replaced with a link to the forum)
 	'MCHAT_NEW_POST'				=> 'postou um tópico novo: %1$s em %2$s',
+	'MCHAT_NEW_POST_DELETED'		=> 'postou um novo tópico que foi excluído',
 	'MCHAT_NEW_REPLY'				=> 'postou uma resposta : %1$s em %2$s',
+	'MCHAT_NEW_REPLY_DELETED'		=> 'postou uma resposta que foi excluída',
 	'MCHAT_NEW_QUOTE'				=> 'respondeu com uma citação : %1$s em %2$s',
+	'MCHAT_NEW_QUOTE_DELETED'		=> 'postou uma resposta que foi excluída',
 	'MCHAT_NEW_EDIT'				=> 'editou um post: %1$s em %2$s',
+	'MCHAT_NEW_EDIT_DELETED'		=> 'editou um post que foi excluído',
 	'MCHAT_NEW_LOGIN'			    => 'Somente logou',
 ));

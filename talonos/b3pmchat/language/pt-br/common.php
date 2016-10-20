@@ -32,7 +32,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	// board3.de portal lang
-	'B3PMCHAT_UPGRADE'				=> 'This version of b3pmChat requires mChat 2.0.0-RC6 or higher to work',
-	'PORTAL_MCHAT_TITLE'				=> 'mChat on Board3 Portal',
-	'PORTAL_MCHAT_TITLE_EXP'							=> '<div style="color: #AA0000;">To edit mChat options please go to </br> ACP -> Extensions -> mChat</a></div>',
+	'B3PMCHAT_UPGRADE'				=> 'Esta versão do b3pmChat requer mChat 2.0.0-RC6 ou superior para funcionar',
+	'PORTAL_MCHAT_TITLE'				=> 'mChat em Board3 Portal',
+	'PORTAL_MCHAT_TITLE_EXP'							=> '<div style="color: #AA0000;">Para editar as opções mChat acesse </br> ACP -> extensões -> mChat</a></div>',
 ));

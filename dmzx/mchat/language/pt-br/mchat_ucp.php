@@ -4,7 +4,7 @@
  *
  * @package phpBB Extension - mChat
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
- * @copyright (c) 2016 kasimi
+ * @copyright (c) 2016 kasimi - https://kasimi.net
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  *
  */
@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, array(
-	'MCHAT_PREFERENCES'				=> 'Chat preferências',
+	'MCHAT_PREFERENCES'				=> 'mChat preferências',
 	'MCHAT_NO_SETTINGS'				=> 'Você não está autorizado a personalizar as configurações.',
 
 	'MCHAT_INDEX'					=> 'Exibir na página do forum',
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'MCHAT_INPUT_AREA'				=> 'Campo de entrada',
 	'MCHAT_TEXT_AREA'				=> 'Área de texto',
 	'MCHAT_POSTS'					=> 'Mostrar novas mensagens ( atualmente todos desactivados , pode ser habilitado na seção mChat Global Settings no ACP )',
-	'MCHAT_CHARACTER_COUNT'			=> 'Mostrar número de caracteres quando escrever uma mensagem',
+	'MCHAT_DISPLAY_CHARACTER_COUNT'			=> 'Mostrar número de caracteres quando escrever uma mensagem',
 	'MCHAT_RELATIVE_TIME'			=> 'Exibir o tempo relativo de novas mensagens',
 	'MCHAT_RELATIVE_TIME_EXPLAIN'	=> 'Exibe “Agora”, “1 minuto atrás” e assim por diante para cada mensagem . Definido como <em>Não</em> para exibir sempre a data completa .',
 	'MCHAT_PAUSE_ON_INPUT'			=> 'Pausa na entrada',

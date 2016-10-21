@@ -21,11 +21,11 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'AUTOBAN_ACTIVE'	=> 'Auto Ban',
-	'AUTOBAN_ACTIVE_EXPLAIN'	=> 'Activate banning on certain count of warnings',
-	'AUTOBAN_COUNT'	=> 'Warnings count',
-	'AUTOBAN_COUNT_EXPLAIN'	=> 'How many warnings for user to auto ban',
-	'AUTOBAN_DURATION'	=> 'Auto Ban Duration',
-	'AUTOBAN_DURATION_EXPLAIN'	=> 'Duration in days for the automatic ban',
-	'AUTOBAN_REASON'	=> 'Ban reason',
-	'AUTOBAN_REASON_EXPLAIN'	=> 'Reason for user ban'
+	'AUTOBAN_ACTIVE_EXPLAIN'	=> 'Ative o banimento para determinado número de advertências',
+	'AUTOBAN_COUNT'	=> 'Quantidade de Advertências',
+	'AUTOBAN_COUNT_EXPLAIN'	=> 'Quantas advertências para o banimento automático do usuário',
+	'AUTOBAN_DURATION'	=> 'Duração do Auto Banimento',
+	'AUTOBAN_DURATION_EXPLAIN'	=> 'Período em dias para o banimento automático',
+	'AUTOBAN_REASON'	=> 'Razão do banimento',
+	'AUTOBAN_REASON_EXPLAIN'	=> 'Razão por banir usuário'
 ));

@@ -23,73 +23,73 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	// Hidden BBCode
-	'ABBC3_HIDDEN_ON'			=> 'Hidden Content',
-	'ABBC3_HIDDEN_OFF'			=> 'Hidden Content (for members only)',
-	'ABBC3_HIDDEN_EXPLAIN'		=> 'This board requires you to be registered and logged-in to view hidden content.',
+	'ABBC3_HIDDEN_ON'			=> 'Esconder conteúdo',
+	'ABBC3_HIDDEN_OFF'			=> 'Esconder conteúdo (somente para membros)',
+	'ABBC3_HIDDEN_EXPLAIN'		=> 'Você tem que está registrado e logado para ver o conteúdo oculto.',
 
 	// Spoiler BBCode
-	'ABBC3_SPOILER_SHOW'		=> '► Show Spoiler',
-	'ABBC3_SPOILER_HIDE'		=> '▼ Hide Spoiler',
+	'ABBC3_SPOILER_SHOW'		=> '► Exibir Spoiler',
+	'ABBC3_SPOILER_HIDE'		=> '▼ Esconder Spoiler',
 
 	// Off Topic BBCode
 	'ABBC3_OFFTOPIC'			=> 'Off Topic',
 
 	// Font BBCode
-	'ABBC3_FONT_BBCODE'			=> 'Font Menu',
+	'ABBC3_FONT_BBCODE'			=> 'Fontes',
 	'ABBC3_FONT_FANCY'			=> 'Fancy fonts',
 	'ABBC3_FONT_SAFE'			=> 'Safe fonts',
 	'ABBC3_FONT_WIN'			=> 'Windows fonts',
 
 	// BBCode help lines
-	'ABBC3_ALIGN_HELPLINE'		=> 'Align text: [align=center|left|right|justify]text[/align]',
-	'ABBC3_BBVIDEO_HELPLINE'	=> 'Embed any video site url: [BBvideo=width,height]http://video_url[/BBvideo]',
-	'ABBC3_BLUR_HELPLINE'		=> 'Blur text: [blur=color]text[/blur]',
-	'ABBC3_DIR_HELPLINE'		=> 'Text direction: [dir=ltr|rtl]text[/dir]',
-	'ABBC3_DROPSHADOW_HELPLINE'	=> 'Drop shadow text: [dropshadow=color]text[/dropshadow]',
-	'ABBC3_FADE_HELPLINE'		=> 'Text fadein / fadeout: [fade]text[/fade]',
-	'ABBC3_FLOAT_HELPLINE'		=> 'Float text: [float=left|right]text[/float]',
-	'ABBC3_FONT_HELPLINE'		=> 'Font type: [font=Comic Sans MS]text[/font]',
-	'ABBC3_GLOW_HELPLINE'		=> 'Glow text: [glow=color]text[/glow]',
-	'ABBC3_HIDDEN_HELPLINE'		=> 'Hide from guests: [hidden]text[/hidden]',
-	'ABBC3_HIGHLIGHT_HELPLINE'	=> 'Highlight text: [highlight=yellow]text[/highlight]  Tip: you can also use color=#FF0000',
-	'ABBC3_MARQUEE_HELPLINE'	=> 'Marquee text: [marq=up|down|left|right]text[/marq]',
-	'ABBC3_MOD_HELPLINE'		=> 'Alert message: [mod=username]text[/mod]',
-	'ABBC3_NFO_HELPLINE'		=> 'NFO ascii art text: [nfo]text[/nfo]',
-	'ABBC3_OFFTOPIC_HELPLINE'	=> 'Off Topic message: [offtopic]text[/offtopic]',
-	'ABBC3_PREFORMAT_HELPLINE'	=> 'Preformatted text: [pre]text[/pre]',
-	'ABBC3_SHADOW_HELPLINE'		=> 'Shadow text: [shadow=color]text[/shadow]',
+	'ABBC3_ALIGN_HELPLINE'		=> 'Alinhar texto: [align=center|left|right|justify]texto[/align]',
+	'ABBC3_BBVIDEO_HELPLINE'	=> 'Incorporar qualquer URL de vídeo: [BBvideo=width,height]http://video_url[/BBvideo]',
+	'ABBC3_BLUR_HELPLINE'		=> 'Borrão no texto: [blur=color]texto[/blur]',
+	'ABBC3_DIR_HELPLINE'		=> 'Direção do texto: [dir=ltr|rtl]texto[/dir]',
+	'ABBC3_DROPSHADOW_HELPLINE'	=> 'Sombra do texto: [dropshadow=color]textp[/dropshadow]',
+	'ABBC3_FADE_HELPLINE'		=> 'Texto fadein / fadeout: [fade]texto[/fade]',
+	'ABBC3_FLOAT_HELPLINE'		=> 'Texto flutuante: [float=left|right]texto[/float]',
+	'ABBC3_FONT_HELPLINE'		=> 'Tipo de fonte: [font=Comic Sans MS]texto[/font]',
+	'ABBC3_GLOW_HELPLINE'		=> 'Texto com brilho: [glow=color]texto[/glow]',
+	'ABBC3_HIDDEN_HELPLINE'		=> 'Hide from guests: [hidden]texto[/hidden]',
+	'ABBC3_HIGHLIGHT_HELPLINE'	=> 'Realçar o texto: [highlight=yellow]texto[/highlight]  Dica: você também pode usar color=#FF0000',
+	'ABBC3_MARQUEE_HELPLINE'	=> 'Letreiro: [marq=up|down|left|right]texto[/marq]',
+	'ABBC3_MOD_HELPLINE'		=> 'Mensagem de alerta: [mod=username]text[/mod]',
+	'ABBC3_NFO_HELPLINE'		=> 'NFO ascii art text: [nfo]texto[/nfo]',
+	'ABBC3_OFFTOPIC_HELPLINE'	=> 'Mensagem Off Topic: [offtopic]texto[/offtopic]',
+	'ABBC3_PREFORMAT_HELPLINE'	=> 'Texto pré-formatado: [pre]texto[/pre]',
+	'ABBC3_SHADOW_HELPLINE'		=> 'Segunda sobra do texto [shadow=color]texto[/shadow]',
 	'ABBC3_SOUNDCLOUD_HELPLINE'	=> 'SoundCloud: [soundcloud]http://soundcloud.com/user-name/song-title[/soundcloud]',
-	'ABBC3_SPOILER_HELPLINE'	=> 'Spoiler message: [spoil]text[/spoil]',
-	'ABBC3_STRIKE_HELPLINE'		=> 'Strike-through text: [s]text[/s]',
-	'ABBC3_SUB_HELPLINE'		=> 'Subscript text: [sub]text[/sub]',
-	'ABBC3_SUP_HELPLINE'		=> 'Superscript text: [sup]text[/sup]',
-	'ABBC3_YOUTUBE_HELPLINE'	=> 'YouTube Video: [youtube]http://youtube_url[/youtube]',
+	'ABBC3_SPOILER_HELPLINE'	=> 'Spoiler: [spoil]texto[/spoil]',
+	'ABBC3_STRIKE_HELPLINE'		=> 'Texto exponecial: [s]texto[/s]',
+	'ABBC3_SUB_HELPLINE'		=> 'Texto subscrito: [sub]text[/sub]',
+	'ABBC3_SUP_HELPLINE'		=> 'Texto sobrescrito: [sup]text[/sup]',
+	'ABBC3_YOUTUBE_HELPLINE'	=> 'YouTube: [youtube]http://youtube_url[/youtube]',
 
 	// Utility BBCodes
-	'ABBC3_COPY_BBCODE'			=> 'Copy selected text',
-	'ABBC3_PASTE_BBCODE'		=> 'Paste copied text',
-	'ABBC3_PASTE_ERROR'			=> 'You must first copy a selection of text, then paste it',
-	'ABBC3_PLAIN_BBCODE'		=> 'Remove all BBCode tags from the selected text',
-	'ABBC3_NOSELECT_ERROR'		=> 'No text was seleted.',
+	'ABBC3_COPY_BBCODE'			=> 'Copie o texto selecionado',
+	'ABBC3_PASTE_BBCODE'		=> 'Colar texto copiado',
+	'ABBC3_PASTE_ERROR'			=> 'Primeiro, você deve copiar uma seleção de texto, em seguida, colá-lo',
+	'ABBC3_PLAIN_BBCODE'		=> 'Remover todas as tags BBCode do texto selecionado',
+	'ABBC3_NOSELECT_ERROR'		=> 'Nenhum texto foi selecionado.',
 
 	// BBCode Wizards
-	'ABBC3_BBCODE_WIZ_SUBMIT'	=> 'Insert into message',
-	'ABBC3_BBCODE_WIZ_EXAMPLE'	=> 'Example',
+	'ABBC3_BBCODE_WIZ_SUBMIT'	=> 'Inserir na mensagem',
+	'ABBC3_BBCODE_WIZ_EXAMPLE'	=> 'Exemplo',
 
 	// BBvideo Wizard
-	'ABBC3_BBVIDEO_SITES'		=> 'BBvideo allowed sites',
-	'ABBC3_BBVIDEO_LINK'		=> 'Video URL',
-	'ABBC3_BBVIDEO_SIZE'		=> 'Video Width x Height',
-	'ABBC3_BBVIDEO_PRESETS'		=> 'Size Presets',
+	'ABBC3_BBVIDEO_SITES'		=> 'BBvideo sites permitidos',
+	'ABBC3_BBVIDEO_LINK'		=> 'Vídeo URL',
+	'ABBC3_BBVIDEO_SIZE'		=> 'Vídeo largura x altura',
+	'ABBC3_BBVIDEO_PRESETS'		=> 'Predefinições de Tamanho',
 	'ABBC3_BBVIDEO_SEPARATOR'	=> 'x',
 
 	// URL Wizard
-	'ABBC3_URL_LINK'			=> 'Enter a site URL',
-	'ABBC3_URL_DESCRIPTION'		=> 'Optional description',
-	'ABBC3_URL_EXAMPLE'			=> 'http://www.phpbb.com',
+	'ABBC3_URL_LINK'			=> 'Digite uma URL do site',
+	'ABBC3_URL_DESCRIPTION'		=> 'Descrição opcional',
+	'ABBC3_URL_EXAMPLE'			=> 'http://www.google.com.br',
 
 	// ACP
-	'ABBC3_BBCODE_ORDERED'		=> 'The BBCode order has been updated.',
-	'ABBC3_BBCODE_GROUP'		=> 'Manage groups that can use this BBCode',
-	'ABBC3_BBCODE_GROUP_INFO'	=> 'If no groups are selected, then all users can use this BBCode. Use CTRL+CLICK (or CMD+CLICK on Mac) to select/deselect more than one group.',
+	'ABBC3_BBCODE_ORDERED'		=> 'A ordem BBCode foi atualizado.',
+	'ABBC3_BBCODE_GROUP'		=> 'Gerenciar grupos que podem usar esse BBCode',
+	'ABBC3_BBCODE_GROUP_INFO'	=> 'Se nenhum grupo é selecionado, em seguida, todos os usuários podem usar este BBCode. Use Ctrl + clique (ou CMD + clique no Mac) para selecionar / desmarcar mais de um grupo.',
 ));

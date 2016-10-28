@@ -1,5 +1,4 @@
 <?php
-
 /**
 *
 *
@@ -8,17 +7,14 @@
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
-
 if (!defined('IN_PHPBB'))
 {
 	exit;
 }
-
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
-
 // DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
@@ -32,7 +28,6 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste:
 // ’ » “ ” …
-
 $lang = array_merge($lang, array(
 	'USERS_24HOUR_TOTAL'	=> array(
 		1 => '%d usuário',
@@ -42,10 +37,9 @@ $lang = array_merge($lang, array(
 		1 => ' e %d visitante',
 		2 => ' e %d visitantes',
 	),
-	'LAST_24_HOURS'	=> ' Atividade nas últimas 24 horas',
+	'LAST_24_HOURS'	=> 'Ativos nas últimas 24 horas',
 	'24HOUR_TOPICS'			=> 'Novos tópicos %d',
 	'24HOUR_POSTS'			=> 'Novos posts %d',
 	'24HOUR_USERS'			=> 'Novos usuários %d',
-
-	'TWENTYFOURHOUR_STATS'			=> 'Ativos nas últimas 24 horas',
+	'TWENTYFOURHOUR_STATS'			=> 'Atividade nas últimas 24 horas',
 ));

@@ -47,5 +47,5 @@ $lang = array_merge($lang, array(
 	'24HOUR_POSTS'			=> 'Novos posts %d',
 	'24HOUR_USERS'			=> 'Novos usuários %d',
 
-	'TWENTYFOURHOUR_STATS'			=> 'Atividade nas últimas 24 horas',
+	'TWENTYFOURHOUR_STATS'			=> 'Ativos nas últimas 24 horas',
 ));

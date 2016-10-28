@@ -35,17 +35,17 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'USERS_24HOUR_TOTAL'	=> array(
-		1 => '%d user',
-		2 => '%d users',
+		1 => '%d usuário',
+		2 => '%d usuários',
 	),
 	'GUEST_ONLINE_24'		=> array(
-		1 => ' and %d guest',
-		2 => ' and %d guests',
+		1 => ' e %d visitante',
+		2 => ' e %d visitantess',
 	),
-	'LAST_24_HOURS'	=> ' active over the last 24 hours',
-	'24HOUR_TOPICS'			=> 'New topics %d',
-	'24HOUR_POSTS'			=> 'New posts %d',
-	'24HOUR_USERS'			=> 'New users %d',
+	'LAST_24_HOURS'	=> ' Ativos nas últimas 24 horas',
+	'24HOUR_TOPICS'			=> 'Novos tópicos %d',
+	'24HOUR_POSTS'			=> 'Novos posts %d',
+	'24HOUR_USERS'			=> 'Novos usuários %d',
 
-	'TWENTYFOURHOUR_STATS'			=> 'Activity over the last 24 hours',
+	'TWENTYFOURHOUR_STATS'			=> 'Ativos nas últimas 24 horas',
 ));

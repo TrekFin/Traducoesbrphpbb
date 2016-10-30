@@ -34,32 +34,32 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'MERGE_SEPARATOR'		=> "\n\n[size=85][color=green]Added in %s:[/color][/size]\n",
+	'MERGE_SEPARATOR'		=> "\n\n[size=85][color=green]Adicionado a %s:[/color][/size]\n",
 	'MERGE_SUBJECT'			=> "[size=85][color=green]%s[/color][/size]\n",
-	'POSTS_MERGING_OPTION'	=> 'Do not merge with previous post',
+	'POSTS_MERGING_OPTION'	=> 'Não fundir com a mensagem anterior',
 
-	'D_SECONDS'  => array(
-		1	=> '%d second',
-		2	=> '%d seconds',
+	'D_SECONDS'	=> array(
+		1	=> '%d segundo',
+		2	=> '%d segundos',
 	),
-	'D_MINUTES'  => array(
-		1	=> '%d minute',
-		2	=> '%d minutes',
+	'D_MINUTES'	=> array(
+		1	=> '%d minuto',
+		2	=> '%d minutos',
 	),
-	'D_HOURS'    => array(
-		1	=> '%d hour',
-		2	=> '%d hours',
+	'D_HOURS'	=> array(
+		1	=> '%d hora',
+		2	=> '%d horas',
 	),
-	'D_MDAY'     => array(
-		1	=> '%d day',
-		2	=> '%d days',
+	'D_MDAY'	=> array(
+		1	=> '%d dia',
+		2	=> '%d dias',
 	),
-	'D_MON'      => array(
-		1	=> '%d month',
-		2	=> '%d months',
+	'D_MON'		=> array(
+		1	=> '%d mês',
+		2	=> '%d meses',
 	),
-	'D_YEAR'     => array(
-		1	=> '%d year',
-		2	=> '%d years',
+	'D_YEAR'	=> array(
+		1	=> '%d ano',
+		2	=> '%d anos',
 	),
 ));

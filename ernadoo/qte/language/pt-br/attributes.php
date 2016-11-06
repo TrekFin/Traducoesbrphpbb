@@ -24,14 +24,14 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	// select
-	'QTE_ATTRIBUTES' => 'Topic attributes',
-	'QTE_ATTRIBUTE' => 'Topic attribute',
+	'QTE_ATTRIBUTES' => 'Atributos do tópico',
+	'QTE_ATTRIBUTE' => 'Atributo do tópico',
 
-	'QTE_ATTRIBUTE_ADD' => 'Select a topic attribute',
-	'QTE_ATTRIBUTE_REMOVE' => 'Remove the topic attribute',
-	'QTE_ATTRIBUTE_DESIRED' => 'Select desired attribute',
-	'QTE_ATTRIBUTE_KEEP' => 'Keep the actual attribute',
-	'QTE_ATTRIBUTE_RESTRICT' => 'Forbidden attribute deletion',
+	'QTE_ATTRIBUTE_ADD' => 'Selecione um atributo de tópico',
+	'QTE_ATTRIBUTE_REMOVE' => 'Remover o atributo do tópico',
+	'QTE_ATTRIBUTE_DESIRED' => 'Selecionar o atributo desejado',
+	'QTE_ATTRIBUTE_KEEP' => 'Manter o atributo atual',
+	'QTE_ATTRIBUTE_RESTRICT' => 'Exclusão de atributo proibido',
 
 	// notifications
 	'QTE_ATTRIBUTE_ADDED' => 'An attribute has been applied to the topic title',

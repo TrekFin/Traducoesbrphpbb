@@ -24,7 +24,7 @@ if (empty($lang) || !is_array($lang))
 
 // administration
 $lang = array_merge($lang, array(
-	'QTE_ADD' => 'Add a new attribute',
+	'QTE_ADD' => 'Adicionar um novo atributo',
 	'QTE_ADD_EXPLAIN' => 'Here you can define the new attribute fields.',
 	'QTE_EDIT' => 'Edit attribute',
 	'QTE_EDIT_EXPLAIN' => 'Here you can modify the fields of the selected attribute.',

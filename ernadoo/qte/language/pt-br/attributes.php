@@ -34,28 +34,28 @@ $lang = array_merge($lang, array(
 	'QTE_ATTRIBUTE_RESTRICT' => 'Exclusão de atributo proibido',
 
 	// notifications
-	'QTE_ATTRIBUTE_ADDED' => 'An attribute has been applied to the topic title',
-	'QTE_ATTRIBUTE_UPDATED' => 'The attribute of that topic has been updated',
-	'QTE_ATTRIBUTE_REMOVED' => 'The topic attribute has been removed',
+	'QTE_ATTRIBUTE_ADDED' => 'Um atributo foi aplicado ao título do tópico',
+	'QTE_ATTRIBUTE_UPDATED' => 'O atributo do tópico foi atualizado',
+	'QTE_ATTRIBUTE_REMOVED' => 'O atributo de tópico foi removido',
 
-	'QTE_TOPIC_ATTRIBUTE_ADDED' => 'An attribute has been applied to the selected topic',
-	'QTE_TOPICS_ATTRIBUTE_ADDED' => 'An attribute has been applied to the selected topics',
-	'QTE_TOPIC_ATTRIBUTE_UPDATED' => 'The attribute of the selected topic has been updated',
-	'QTE_TOPICS_ATTRIBUTE_UPDATED' => 'The attribute of the selected topics has been updated',
-	'QTE_TOPIC_ATTRIBUTE_REMOVED' => 'The attribute of the selected topic has been removed',
-	'QTE_TOPICS_ATTRIBUTE_REMOVED' => 'The attribute of the selected topics has been removed',
+	'QTE_TOPIC_ATTRIBUTE_ADDED' => 'Um atributo foi aplicado ao tópico selecionado',
+	'QTE_TOPICS_ATTRIBUTE_ADDED' => 'Um atributo foi aplicado aos tópicos selecionados',
+	'QTE_TOPIC_ATTRIBUTE_UPDATED' => 'O atributo do tópico selecionado foi atualizado',
+	'QTE_TOPICS_ATTRIBUTE_UPDATED' => 'O atributo dos tópicos selecionados foi atualizado',
+	'QTE_TOPIC_ATTRIBUTE_REMOVED' => 'O atributo do tópico selecionado foi removido',
+	'QTE_TOPICS_ATTRIBUTE_REMOVED' => 'O atributo dos tópicos selecionados foi removido',
 
 	// search
-	'QTE_ATTRIBUTE_SELECT' => 'Select a topic attribute',
-	'QTE_ATTRIBUTE_SEARCH' => 'Search for attributes',
-	'QTE_ATTRIBUTE_SEARCH_EXPLAIN' => 'Select the attribute you wish to search',
+	'QTE_ATTRIBUTE_SELECT' => 'Selecionar um atributo de tópico',
+	'QTE_ATTRIBUTE_SEARCH' => 'Pesquisar atributos',
+	'QTE_ATTRIBUTE_SEARCH_EXPLAIN' => 'Selecione o atributo que você deseja pesquisar',
 
 	// sort
-	'QTE_SORT' => 'As attribute',
-	'QTE_ALL' => 'All',
+	'QTE_SORT' => 'Como atributo',
+	'QTE_ALL' => 'Todos',
 
 	// mistake messages
-	'QTE_ATTRIBUTE_UNSELECTED' => 'You must select an attribute!',
+	'QTE_ATTRIBUTE_UNSELECTED' => 'Você deve selecionar um atributo!',
 
 	// placeholders
 	'QTE_KEY_USERNAME' => '¦user¦',
@@ -64,6 +64,6 @@ $lang = array_merge($lang, array(
 
 // topic attributes as keys
 $lang = array_merge($lang, array(
-	'QTE_SOLVED' => '[Solved by %mod% :: %date%]',
-	'QTE_CANCELLED' => 'Cancelled',
+	'QTE_SOLVED' => '[Resolvido por %mod% :: %date%]',
+	'QTE_CANCELLED' => 'Cancelado',
 ));

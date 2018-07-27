@@ -1,7 +1,7 @@
-Subject: The moderator has approved your article «{ARTICLE_TITLE}»
+Subject: O moderador reprovou o seu tópico «{ARTICLE_TITLE}»
 
-Hello, {USERNAME}!
+Olá, {USERNAME}!
 
-You are receiving this notice because the moderator {MODERATOR} rejected your article «{ARTICLE_TITLE}».
+Você está recebendo este email pois o {MODERATOR} rejeitou o seu tópico «{ARTICLE_TITLE}».
 
 {EMAIL_SIG}

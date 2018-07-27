@@ -1,10 +1,10 @@
-Subject: Article in a queue for moderation - «{ARTICLE_TITLE}»
+Subject: Tópico esperando por moderação - «{ARTICLE_TITLE}»
 
-Hello!
+Olá!
 
-You are receiving this notice because the article «{ARTICLE_TITLE}» at the conference «{SITENAME}» requires approval.
+Você está recebendo este email pois o seu tópico «{ARTICLE_TITLE}» postado no «{SITENAME}» requer ser revisado pela moderação.
 
-If you want to view an article, click on the following link:
+Se você quiser ver o seu tópico, clique no link abaixo:
 {U_VIEW_ARTICLE}
 
 {EMAIL_SIG}
